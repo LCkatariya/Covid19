@@ -67,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # Covid19
+## install
+npm i </br>
+npm install @material-ui/core </br>
+npm install --save axios react-chartjs-2 react-countup classname</br>
