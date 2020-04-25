@@ -11,13 +11,14 @@ const CountryPicker = () => {
         const fetchCountries = async() =>{
             setFetchedCountries(await fetchCountry);
         }
-        fetchAPI();
+        
     }, [setFetchedCountries]);
     console.log(fetchedCountries);
     return(
        <FormControl className = {styles.formcontrol}>
            <NativeSelect>
                <option value = "global">Global</option>
+                {fetchedCountries.map((country,i) => <option key = {i} value = {country}>{country}</option>)}
            </NativeSelect>
        </FormControl>
     );
