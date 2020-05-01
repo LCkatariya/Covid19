@@ -8,16 +8,24 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.image{
+.covid19{
     width: 370px;
-    margin-top: 50px; 
-
+    margin-top: 50px;
+    margin-bottom: 50px; 
 } 
+.lal{
+    width: 870px;
+    margin-top: 10px; 
+}
 @media(max-width: 770px){
     .container{
         margin-top: 0 10%;
     }
-    .image{
+    .covid19{
+        width: 100%;
+    }
+.lal{
         width: 100%;
     }
 }
+
